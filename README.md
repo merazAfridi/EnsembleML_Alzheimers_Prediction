@@ -1,1 +1,8 @@
 # EnsembleML_Alzheimers_Prediction
+
+Ensemble methods combine multiple models to make better predictions. They're great because they improve accuracy by taking advantage of different model strengths and reducing errors.Ensemble techniques are versatile and can be used across different machine learning tasks like classification, regression.They employ diverse models such as decision trees, neural networks, or svm to enhance predictive performance. They are also able to handle mistakes better and work well with various types of data.
+
+However, they can be complex and take more time to train because they involve multiple models. Understanding why they make predictions can be hard, and sometimes they might still make mistakes if not set up properly.Adjusting hyperparameters for both individual models and ensemble methods is often a demanding task, necessitating experimentation due to its complexity. Plus, they rely on the quality of individual models, so if those are weak or similar, the ensemble won't perform well.
+Overall, ensembles are powerful tools for improving prediction accuracy, but they require careful setup and might not always be easy to understand.
+
+Initially, the accuracy of the RandomForestClassifier was 0.88, and that of the AdaBoostClassifier was 0.85. However, after tuning, the accuracy of the RandomForestClassifier decreased to 0.82, while that of the AdaBoostClassifier increased to 0.88. The StackingClassifier, utilizing Decision Trees, K-Nearest Neighbors, Logistic Regression, and Naive Bayes, achieved an accuracy of 0.88. Similarly, the VotingClassifier also achieved an accuracy of 0.88.
